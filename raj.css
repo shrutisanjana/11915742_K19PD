@@ -1,0 +1,95 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.raj{
+	background: url(rajat.jpg) no-repeat;
+	background-size: cover;
+	height: 150vh;
+       
+}
+.raj1{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.raj1 .logo{
+	width: 150px;
+	height: 150px;
+	padding: 100px 45px;
+}
+.raj1 ul{
+	float: right;
+	margin-right: 15px;
+	padding: 7px 0px;
+}
+.raj1 ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.raj1 ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 10px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.raj1 ul li a.active,
+.raj1 ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.raj .center{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+	font-family: 'strain';
+	user-select: none;
+	padding: 25px 15px;
+}
+.center h1{
+	color: white;
+	font-size: 50px;
+	width: 1400px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 55px;
+}
+.center h2{
+	color: whitesmoke;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 1400px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 25px 28px;
+}
+.buttons button{
+	height: 30px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
