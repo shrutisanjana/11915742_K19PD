@@ -1,1 +1,1 @@
-# cse1stprojectTrain.github.io
+# https://shrutisanjana.github.io/cse1stprojectTrain/
